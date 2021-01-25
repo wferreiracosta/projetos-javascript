@@ -25,6 +25,7 @@ body {
 .teclado--linha {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .teclado--botao {
@@ -38,4 +39,29 @@ body {
     align-items: center;
     margin: 10px;
     cursor: pointer;
+    box-shadow: 3px 3px 0px #555;
+}
+
+.botao--branco {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
+
+.botao--corrige {
+    background-color: #f09046;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+}
+
+.botao--confirma {
+    background-color: #48c079;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
 }
